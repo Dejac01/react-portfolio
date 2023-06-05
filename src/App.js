@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar";
 import Home from "./Components/Home";
 import Skills from "./Components/Skills";
 import Work from "./Components/Work";
+import About from "./Components/About";
 
 function App(props) {
   return (
@@ -12,6 +13,7 @@ function App(props) {
       <Home />
       <Skills />
       <Work />
+      <About />
     </div>
   );
 }

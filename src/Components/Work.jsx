@@ -14,7 +14,7 @@ const Work = () => {
             Work
           </p>
           <p className="py-6">
-            // Check out some of my recent works including Writing, Software
+            Check out some of my recent works including Writing, Software
             Development and Digital Marketing projects!
           </p>
         </div>
@@ -50,7 +50,7 @@ const Work = () => {
                       className="text-center rounded-lg px-4 py-3 m-2
                        bg-white text-gray-700 font-bold text-lg"
                     >
-                      Link
+                      Site
                     </button>
                   </a>
                 </div>
