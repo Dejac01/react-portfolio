@@ -19,8 +19,8 @@ function Home() {
           I'm a Software Developer, Writer & Digital Marketer.
         </h2>
         <p className="text-pink-300 py-4 max-w-[700px]">
-          I specialize in building and designing exceptional digital
-          experiences. Take a look around!
+          I specialize in crafting and conceptualizing outstanding digital
+          experiences. Feel free to explore!"
         </p>
         <div>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
