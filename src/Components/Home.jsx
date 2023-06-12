@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] ">
           De`ja Craft
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#b9bdd6] ">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#d3d4e2] ">
           I'm a Software Developer, Writer & Digital Marketer.
         </h2>
         <p className="text-pink-300 py-4 max-w-[700px]">
@@ -19,7 +19,7 @@ const Home = () => {
         </p>
         <div>
           <button className="text-pink-400 group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-pink-300 animate-pulse">
-            View Work
+            View Work Below
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 " />
             </span>
