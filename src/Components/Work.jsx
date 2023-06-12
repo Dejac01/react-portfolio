@@ -17,8 +17,8 @@ const Work = () => {
             Work
           </p>
           <p className="py-6">
-            Check out some of my recent works including Writing, Software
-            Development and Digital Marketing projects!
+            Check out some of my work including Writing, Software Development,
+            and UX/UI projects!
           </p>
         </div>
 

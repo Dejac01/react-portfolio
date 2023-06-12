@@ -21,8 +21,8 @@ const About = () => {
               I am passionate about writing, creativity and building excellent
               front end applications that deliver a memorable digital
               experience. I specialize in Front End Development and Digital
-              Marketing/UX/UI. I am currently majoring in Computer Science and
-              Mathemtics at Louisiana State University Online and hold an
+              Marketing with UX/UI. I am currently majoring in Computer Science
+              and Mathematics at Louisiana State University Online and hold an
               Associates degree in Business Administration.
             </p>
           </div>
