@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] ">
           De`ja Craft
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] ">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#b9bdd6] ">
           I'm a Software Developer, Writer & Digital Marketer.
         </h2>
         <p className="text-pink-300 py-4 max-w-[700px]">
