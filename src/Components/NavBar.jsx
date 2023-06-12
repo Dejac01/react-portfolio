@@ -65,12 +65,7 @@ function NavBar() {
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
-          {" "}
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
+
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
@@ -83,6 +78,14 @@ function NavBar() {
             Work
           </Link>
         </li>
+
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+
         <li className="py-6 text-4xl">
           {" "}
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
