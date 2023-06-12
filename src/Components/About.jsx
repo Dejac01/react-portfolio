@@ -25,6 +25,11 @@ const About = () => {
               and Mathematics at Louisiana State University Online and hold an
               Associates degree in Business Administration.
             </p>
+            <div>
+              <a href="http://voyageatl.com/interview/rising-stars-meet-deja-craft-of-norcross/ ">
+                <p className="p">Read more about my story here!</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
