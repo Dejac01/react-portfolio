@@ -1,7 +1,12 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
+import { useState, useEffect } from "react";
 
-const Home = () => {
+function Home() {
+  const [hom, setHom] = useState(false);
+  const handleClick = () => setHom(!hom);
+
   return (
     <div name="home" className="w-full h-screen bg-[#5e636a]">
       {/* Container */}
@@ -10,7 +15,7 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] ">
           De`ja Craft
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-[#d3d4e2] ">
+        <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] ">
           I'm a Software Developer, Writer & Digital Marketer.
         </h2>
         <p className="text-pink-300 py-4 max-w-[700px]">
@@ -18,16 +23,18 @@ const Home = () => {
           experiences. Take a look around!
         </p>
         <div>
-          <button className="text-pink-400 group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-pink-300 animate-pulse">
-            View Work Below
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3 " />
-            </span>
-          </button>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            <button className="text-pink-400 group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-pink-300 animate-pulse">
+              View Work
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3 " />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Home;
