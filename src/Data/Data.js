@@ -2,6 +2,7 @@ import api from "../Assets/api.png";
 import space from "../Assets/space.png";
 import stocks from "../Assets/stocks.png";
 import login from "../Assets/login.png";
+import poke1 from "../Assets/poke1.png";
 import writing from "../Assets/writing.jpg";
 
 export const data = [
@@ -35,6 +36,14 @@ export const data = [
   },
   {
     id: 5,
+    name: "Pokemon Card Game",
+    image: poke1,
+    github: "https://github.com/Dejac01/Game-Project",
+    live: "https://game-project-xi.vercel.app/",
+  },
+
+  {
+    id: 6,
     name: "My Writing Portfolio",
     image: writing,
     github: "",

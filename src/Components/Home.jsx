@@ -16,11 +16,11 @@ function Home() {
           De`ja Craft
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0] ">
-          I'm a Software Developer, Writer & Digital Marketer.
+          I'm a Software and Data Engineer, Writer & Digital Designer.
         </h2>
         <p className="text-pink-300 py-4 max-w-[700px]">
           I specialize in crafting and conceptualizing outstanding digital
-          experiences. Feel free to explore!"
+          experiences. Feel free to explore!
         </p>
         <div>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
