@@ -46,7 +46,6 @@ export const data = [
     id: 6,
     name: "My Writing Portfolio",
     image: writing,
-    github: "",
     live: "https://www.clippings.me/dejac",
   },
 ];
