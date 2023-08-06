@@ -20,7 +20,7 @@ function Home() {
         </h2>
         <p className="text-pink-300 py-4 max-w-[700px]">
           I specialize in crafting and conceptualizing outstanding digital
-          experiences. Feel free to explore!
+          experiences and visualizations. Feel free to explore!
         </p>
         <div>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
