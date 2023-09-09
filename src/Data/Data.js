@@ -8,7 +8,7 @@ import writing from "../Assets/writing.jpg";
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
+    name: "React JS/API Project",
     image: api,
     github: "https://github.com/Dejac01",
     live: "https://api-project-beta.vercel.app/",
@@ -29,7 +29,7 @@ export const data = [
   },
   {
     id: 4,
-    name: "Full Stack Application",
+    name: "Full Stack Application Code",
     image: login,
     github: "https://github.com/Dejac01/final-app",
     live: "",
